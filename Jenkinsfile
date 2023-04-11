@@ -13,7 +13,7 @@ pipeline {
             }
         }
 
-	 stage('Test') {
+	 sta adsdge('Test') {
             agent {
                 docker {
                     image 'grihabor/pytest'
